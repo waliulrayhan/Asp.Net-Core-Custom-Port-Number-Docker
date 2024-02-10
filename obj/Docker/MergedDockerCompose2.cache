@@ -1,0 +1,33 @@
+name: dockercompose14326608974506064898
+services:
+  webapplication1:
+    build:
+      context: C:\Users\waliulrayhan\Desktop\WebApplication1
+      dockerfile: WebApplication1/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+    image: webapplication1
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "8081"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\waliulrayhan\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\waliulrayhan\AppData\Roaming/ASP.NET/Https
+        target: /home/app/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+networks:
+  default:
+    name: dockercompose14326608974506064898_default

@@ -1,0 +1,11 @@
+C:\Users\waliulrayhan\Desktop\WebApplication1\bin\Debug\WebApplication1.deps.json
+C:\Users\waliulrayhan\Desktop\WebApplication1\bin\Debug\WebApplication1.runtimeconfig.json
+C:\Users\waliulrayhan\Desktop\WebApplication1\bin\Debug\appsettings.Development.json
+C:\Users\waliulrayhan\Desktop\WebApplication1\bin\Debug\appsettings.json
+C:\Users\waliulrayhan\Desktop\WebApplication1\bin\Debug\WebApplication1.staticwebassets.runtime.json
+C:\Users\waliulrayhan\Desktop\WebApplication1\bin\Debug\WebApplication1.exe
+C:\Users\waliulrayhan\Desktop\WebApplication1\bin\Debug\WebApplication1.dll
+C:\Users\waliulrayhan\Desktop\WebApplication1\bin\Debug\WebApplication1.pdb
+C:\Users\waliulrayhan\Desktop\WebApplication1\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+C:\Users\waliulrayhan\Desktop\WebApplication1\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\waliulrayhan\Desktop\WebApplication1\obj\Debug\docker-compose.dcproj.CopyComplete
