@@ -1,24 +1,25 @@
-Custom Port Number Docker ASP.NET Core
-This repository provides instructions and configurations to customize the port number for an ASP.NET Core application running in Docker using docker-compose.
+<h1>Custom Port Number Docker ASP.NET Core</h1>
 
-Setup Instructions
-Follow these steps to customize the port number:
+<p>This repository provides instructions and configurations to customize the port number for an ASP.NET Core application running in Docker using docker-compose.</p>
 
-Modify docker-compose.override.yml
+<h2>Setup Instructions</h2>
 
-Remove the - ASPNETCORE_HTTPS_PORTS entry and set your custom port number in the ports section. Replace 8081 with your desired port number:
+<ol>
+    <li>
+        <h3>Modify docker-compose.override.yml</h3>
 
-yaml
-Copy code
-ports:
+        <p>Remove the <code>- ASPNETCORE_HTTPS_PORTS</code> entry and set your custom port number in the <code>ports</code> section. Replace <code>8081</code> with your desired port number:</p>
+
+        <pre><code>ports:
   - "8081:8080"
-Update ASP.NET Core Configuration
+</code></pre>
+    </li>
+    <li>
+        <h3>Update ASP.NET Core Configuration</h3>
 
-Update the port number in WebApplication1/Properties/launchSettings.json. Under the Docker configuration, set the ASPNETCORE_HTTP_PORTS environment variable to your custom port number (e.g., 8081):
+        <p>Update the port number in <code>WebApplication1/Properties/launchSettings.json</code>. Under the <code>Docker</code> configuration, set the <code>ASPNETCORE_HTTP_PORTS</code> environment variable to your custom port number (e.g., <code>8081</code>):</p>
 
-json
-Copy code
-"Docker": {
+        <pre><code>"Docker": {
       "commandName": "Docker",
       "launchBrowser": true,
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
@@ -26,7 +27,15 @@ Copy code
         "ASPNETCORE_HTTP_PORTS": "8081"
       }
     }
-Ensure that the port numbers specified in docker-compose.override.yml and launchSettings.json match.
+</code></pre>
 
-Usage
-Once the configurations are updated, build and run your ASP.NET Core application using Docker. Your application will now be accessible through the specified custom port number.
+        <p>Ensure that the port numbers specified in <code>docker-compose.override.yml</code> and <code>launchSettings.json</code> match.</p>
+    </li>
+</ol>
+
+<h2>Usage</h2>
+
+<p>Once the configurations are updated, build and run your ASP.NET Core application using Docker. Your application will now be accessible through the specified custom port number.</p>
+
+</body>
+</html>
