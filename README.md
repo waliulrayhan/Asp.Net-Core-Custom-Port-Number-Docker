@@ -3,7 +3,7 @@
 
 <h2>Prerequisites</h2>
 <ul>
-  <li><a href="https://dotnet.microsoft.com/download">.NET 6.0 SDK</a></li>
+  <li><a href="https://dotnet.microsoft.com/download">.NET 8.0 SDK</a></li>
   <li><a href="https://www.docker.com/get-started">Docker Desktop</a></li>
 </ul>
 
