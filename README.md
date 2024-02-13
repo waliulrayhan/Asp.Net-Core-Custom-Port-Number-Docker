@@ -7,7 +7,7 @@
   <li><a href="https://www.docker.com/get-started">Docker Desktop</a></li>
 </ul>
 
-<h2>How to run</h2>
+<h2>Setup Instructions/h2>
 <ol>
   <li>Clone this repository</li>
   <li>Open the solution in Visual Studio Code or your preferred IDE</li>
@@ -20,6 +20,8 @@
   <li>Right-click on the <code>docker-compose</code> project and select <code>Run</code></li>
   <li>Open your browser and navigate to <code>http://localhost:8081</code> (or your custom port number)</li>
 </ol>
+
+<p align="center">Once the configurations are updated, build and run your ASP.NET Core application using Docker. Your application will now be accessible through the specified custom port number.</p>
 
 <h2>License</h2>
 <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details</p>
