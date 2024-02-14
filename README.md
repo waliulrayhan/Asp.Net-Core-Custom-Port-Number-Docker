@@ -1,4 +1,4 @@
-<h1 align="center">Custom-Port-Number-Docker-ASP.NET-Core</h1>
+<h1 align="center">Asp.Net-Core-Custom-Port-Number-Docker</h1>
 <p align="center">A sample project that shows how to run an ASP.NET Core web application on a custom port using Docker.</p>
 
 <h2>Prerequisites</h2>
